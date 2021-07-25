@@ -157,13 +157,13 @@ Run the following commands to see that your local copy has a reference to your f
  
 ```sh
 $ git remote -v
-origin  https://github.com/Your_Username/syndicater.git (fetch)
-origin  https://github.com/Your_Username/syndicater.git (push)
+origin  https://github.com/Your_Username/covisite.git (fetch)
+origin  https://github.com/Your_Username/covisite.git (push)
 ```
-Now, lets add a reference to the original [syndicater](https://github.com/arghya1912/syndicater) repository using
+Now, lets add a reference to the original [covisite](https://github.com/arghya1912/covisite) repository using
 
 ```sh
-$ git remote add upstream https://github.com/arghya1912/syndicater.git
+$ git remote add upstream https://github.com/arghya1912/covisite.git
 ```
 
 > This adds a new remote named ***upstream***.
@@ -172,11 +172,11 @@ See the changes using
 
 ```sh
 $ git remote -v
-origin    https://github.com/Your_Username/syndicater.git (fetch)
-origin    https://github.com/Your_Username/syndicater.git (push)
-upstream  https://github.com/arghya1912/syndicater.git (fetch)
-upstream https://github.com/arghya1912/syndicater.git![syndicater](https://user-images.githubusercontent.com/71402528/114308981-4df45f00-9b03-11eb-9928-8028aaf2bd15.jpg)
-/syndicater.git (push)
+origin    https://github.com/Your_Username/covisite.git (fetch)
+origin    https://github.com/Your_Username/covisite.git (push)
+upstream  https://github.com/arghya1912/covisite.git (fetch)
+upstream https://github.com/arghya1912/covisite.git![covisite](https://user-images.githubusercontent.com/71402528/114308981-4df45f00-9b03-11eb-9928-8028aaf2bd15.jpg)
+/covisite.git (push)
 ```
 
 <br>
@@ -198,7 +198,7 @@ $ git checkout master
 # Reset local `master` branch to match `upstream` repository's `master` branch
 $ git reset --hard upstream/master
 
-# Push changes to your forked `syndicater` repo
+# Push changes to your forked `covisite` repo
 $ git push origin master
 ```
 
