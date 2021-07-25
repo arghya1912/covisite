@@ -323,7 +323,7 @@ Then add a title and description to your pull request that explains your preciou
 
 <h2 align="center" id="TimetoSayGoodBye"> :label: Phew! It's time to say Good Bye! :smile: </h2>
     
-   Thank You for giving us a chance! Wishing You a Good Day ahead.
+   Thank you for giving us a chance to participate in HackTable 2021, looking forward to participate in more such events. 
 
 
 
