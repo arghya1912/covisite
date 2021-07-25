@@ -1,0 +1,132 @@
+html{
+    height: 100%;
+  }
+
+body {
+    background-image: url("../images/bg-notun.jpg");
+    background-size: 1550px 800px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+}
+
+.fa-dot-circle {
+    color: #00FF00;
+}
+
+.fa-globe {
+    color: #00FF00;
+}
+
+.content {
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+small {
+    font-size: 40px;
+    color: #ff0404;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.world-button {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.india-button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.bubbles img {
+    width: 50px;
+    animation: bubble 10s linear infinite;
+    z-index: 1;
+}
+
+.bubbles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+}
+
+@keyframes bubble {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+        visibility: visible;
+
+    }
+    30% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0.75;
+    }
+    100% {
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1) {
+    animation-delay: 2s;
+}
+.bubbles img:nth-child(2) {
+    animation-delay: 0s;
+}
+.bubbles img:nth-child(3) {
+    animation-delay: 5s;
+}
+.bubbles img:nth-child(4) {
+    animation-delay: 7.5s;
+}
+.bubbles img:nth-child(5) {
+    animation-delay: 4s;
+}
+.bubbles img:nth-child(6) {
+    animation-delay: 6s;
+}
+.bubbles img:nth-child(7) {
+    animation-delay: 9s;
+}
+
+footer {
+    position: absolute;
+    bottom: 27px;
+    width: 100%;
+    text-align: center;
+    color: #e0ebeb;
+    text-align: center;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.Contact-Us{
+    margin-top: 15px;
+}

@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+  }
+
+body {
+    background-image: url("../images/new-bg.jpg");
+    background-size: 1550px 800px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+}
+
+.fa-dot-circle {
+    color: #00FF00;
+}
+
+.fa-globe {
+    color: #00FF00;
+}
+
+h1 {
+    color: #fbfcfd;
+    font-size: 50px ;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.c-img {
+    margin-top: 70px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    text-align: center;
+    color: #fbfcfd;
+    font-size: 30px;
+}
+
+.span-red {
+    color: #FF0000;
+}

@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+  }
+
+body {
+    background-image: url("../images/new-bg.jpg");
+    background-size: 1550px 800px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+}
+
+.fa-dot-circle {
+    color: #00FF00;
+}
+
+.fa-globe {
+    color: #00FF00;
+}
+
+.content {
+    margin-top: 20px;
+    color: #fbfcfd;
+}
+
+.row-one {
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    line-height: 1.5;
+  }
+  
+.row-two {
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    line-height: 1.5;
+}
+  
+.not-to-do {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+  }
+  
+.to-do {
+    width: 400px;
+    float: right;
+    margin-left: 30px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.heading-not {
+    padding-top: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.item-list {
+    font-size: 20px;
+}
+
+.red-span {
+    color: #FF0000;
+}
+
+.green-span {
+    color: #00FF00;
+}
+

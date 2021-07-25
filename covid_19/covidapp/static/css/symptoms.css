@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+  }
+
+body {
+    background-image: url("../images/new-bg.jpg");
+    background-size: 1550px 800px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+}
+
+.fa-dot-circle {
+    color: #00FF00;
+}
+
+.fa-globe {
+    color: #00FF00;
+}
+
+.content {
+    margin-top: 80px;
+    color: #fbfcfd;
+}
+
+.float-right-image {
+    z-index: 2;
+    border-radius: 7.5%;
+    height: 450px;
+    float: left;
+    margin-right: 120px;
+    margin-left: 100px;
+}
+
+.shadow {
+    -moz-box-shadow:    inset 0 0 25px #000000;
+    -webkit-box-shadow: inset 0 0 25px #000000;
+    box-shadow:         inset 0 0 25px #000000;
+}
+
+h3 {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.symptoms-items {
+    font-size: 20px;
+}
+
+.red-span {
+    color: #FF0000;
+}
+
+.btn {
+    margin-top: 20px;
+}
