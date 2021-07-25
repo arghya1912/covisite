@@ -122,16 +122,16 @@ You can refer to the following articles on the basics of Git and Github and also
 You need to clone (download) it to local machine using
 
 ```sh
-$ git clone https://github.com/arghya1912/syndicater.git
+$ git clone https://github.com/arghya1912/covisite.git
 ```
 
 > This makes a local copy of repository in your machine.
 
-Once you have cloned the `syndicater` repository in Github, move to that folder first using change directory command on linux and Mac.
+Once you have cloned the `covisite` repository in Github, move to that folder first using change directory command on linux and Mac.
 
 ```sh
 # This will change directory to a folder  
-$ cd syndicater
+$ cd covisite
 ```
 
 Move to this folder for all other commands.
@@ -140,11 +140,14 @@ Move to this folder for all other commands.
 
 
 
-### 3️⃣ Set it up :arrow_up:
+### 2️⃣ Set it up :arrow_up:
 
 You'll need the following dependencies : <br/>
 
-Node JS <a href="https://nodejs.org/en/download/">here</a> <br/>
+Pycharm Install <a href="https://www.jetbrains.com/pycharm/download/">here</a> <br/>
+**or** <br>
+VS-Code install <a href="https://code.visualstudio.com/download">here</a> <br/>
+
 Truffle
 ```sh
 $ npm install -g truffle
