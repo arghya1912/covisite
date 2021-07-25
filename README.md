@@ -183,7 +183,7 @@ upstream https://github.com/arghya1912/covisite.git![covisite](https://user-imag
 
 
 
-### 4️⃣ Sync it :recycle:
+### 3️⃣ Sync it :recycle:
 
 Always keep your local copy of repository updated with the original repository.
 Before making any changes and/or in an appropriate interval, run the following commands *carefully* to update your local repository.
@@ -206,13 +206,13 @@ $ git push origin master
 
 
 
-### 5️⃣ Ready Steady Go... :turtle: :rabbit2:
+### 4️⃣ Ready Steady Go... :turtle: :rabbit2:
 
 Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating
 
 <br>
 
-### 6️⃣ Create a new branch :bangbang:
+### 5️⃣ Create a new branch :bangbang:
 
 Whenever you are going to make contribution. Please create seperate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
 
@@ -245,7 +245,7 @@ $ git commit -m 'relevant message'
 <br>
 
 
-### 8️⃣ Share your work :star_struck:
+### 6️⃣ Share your work :star_struck:
 
 Now, Push your awesome work to your remote repository using
 
