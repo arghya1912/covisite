@@ -148,16 +148,13 @@ Pycharm Install <a href="https://www.jetbrains.com/pycharm/download/">here</a> <
 **or** <br>
 VS-Code install <a href="https://code.visualstudio.com/download">here</a> <br/>
 
-Truffle
+Installing Django
 ```sh
-$ npm install -g truffle
-
+ $ python -m pip install Django
 ```
-Download ganache from 
-<a href="https://github.com/trufflesuite/ganache/releases/download/v2.5.4/Ganache-2.5.4-win-x64.appx">here</a>
+Run the following commands to see that your local copy has a reference to your forked remote repository in Github :octocat:
 
-Run the following commands to see that *your local copy* has a reference to *your forked remote repository* in Github :octocat:
-
+ 
 ```sh
 $ git remote -v
 origin  https://github.com/Your_Username/syndicater.git (fetch)
